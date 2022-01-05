@@ -1,0 +1,70 @@
+.follow {
+    margin-top: 60px;
+    height: 657px;
+    background: url(../img/bc3.png) center (center/cover) no-repeat;
+    &__wrapper {
+        padding-top: 60px;
+        display: grid;
+        grid-template: 303px 125px / 550px ;
+        row-gap: 20px;
+    }
+    &__block {
+        background: #000000;
+    }
+    &__title {
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 80px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__text {
+        padding: 9px 69px 0 69px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__btn {
+        display: block;
+        margin: 25px auto;
+        width: 180px;
+        height: 52px;
+        border: none;
+        background: #FFFFFF;
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__us {
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__links {
+        display: block;
+        text-align: center;
+        margin-top: 17px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-right: 21px;
+    }
+}

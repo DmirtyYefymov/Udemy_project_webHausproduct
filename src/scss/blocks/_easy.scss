@@ -1,0 +1,22 @@
+.easy {
+    padding-top: 150px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 385px 880px;
+        justify-content: space-between;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+}

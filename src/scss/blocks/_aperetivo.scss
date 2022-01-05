@@ -1,0 +1,25 @@
+.aperetivo {
+    padding-top: 150px;
+    &__wrapper {
+        display: grid;
+        grid-template: 560px 195px / repeat(2, auto);
+        row-gap: 55px;
+        align-items: center;
+    }
+    &__photo {
+        grid-column: 1 / 3;
+    }
+    &__text1 {
+        font-weight: 400;
+        font-size: 53px;
+        line-height: 80px;
+        color: #000000;
+    }
+    &__text2 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+        justify-self: end;
+    }
+}

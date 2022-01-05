@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import 'blocks/promo';
+@import 'blocks/partners';
+@import 'blocks/boutle';
+@import 'blocks/aperetivo';
+@import 'blocks/easy';
+@import 'blocks/reviews';
+@import 'blocks/flavors';
+@import 'blocks/follow';
+@import 'blocks/down';
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}

@@ -1,0 +1,87 @@
+.boutle {
+    padding-top: 150px;
+    &__title {
+        font-weight: 400;
+        font-size: 53px;
+        line-height: 80px;
+        text-align: center;
+        color: #000000;
+    }
+    &__shop {
+        display: block;
+        margin-top: 24px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000000;
+    }
+    &__wrapper {
+        position: relative;
+        margin-top: 80px;
+        display: grid;
+        grid-template: 700px / repeat(3, 380px);
+        justify-content: space-between;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 44px;
+        text-align: center;
+        color: #000000;
+    }
+    &__descr {
+        margin-top: 16px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+    }
+    &__btn {
+        display: block;
+        margin: 27px auto;
+        width: 180px;
+        height: 52px;
+        background: #191919;
+        border: none;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &-mt55 {
+            margin-top: 55px;
+        }
+    }
+    &__block {
+        position: relative;
+    }
+    &__cicle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 19px;
+        top: 23px;
+        background: #191919;
+        border-radius: 50px;
+        &-txt {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin: 37px 21px auto 21px;
+
+        }
+    }
+}
